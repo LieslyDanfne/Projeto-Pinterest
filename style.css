@@ -23,6 +23,7 @@ section{
     columns: 2;
 }
 .carros {
+    padding: 5px;
     min-width: 200px;
     max-width: 100%;
     border-radius: 12px;
@@ -42,6 +43,9 @@ a span{
     border-radius: 4px;
 }
 nav{
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
     display: flex;
     gap: 25px ;    
 }
@@ -62,8 +66,8 @@ footer{
 }
 
 footer img{
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
